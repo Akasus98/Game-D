@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Prompt;
+}
+
+.navcontainer {
+    background-color: #333;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: red;
+    text-decoration: none;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu li {
+    padding: 0 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.herocontainer {
+    background: #e0e0e0;
+}
+
+.herocon {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hero-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    margin: 5rem 0;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.herobtn {
+    margin-top: 2rem;
+}
+
+
+.herobtn .hero-btn {
+    background: #333;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.herobtn .hero-btn:hover {
+    background: red;
+}
+
+.hero-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.imghero {
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.imghero img {
+    width: auto;
+    height: 300px;
+}
+
+.navcontent {
+    background-color: red;
+}
+
+.nav1 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav2 {
+    padding: 1rem 0;
+}
+
+.nav3 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav3 a:hover {
+    text-decoration: underline;
+}
+
+.con-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.content-con {
+    margin: 2rem 0;
+    padding-right: 2rem;
+}
+
+.con3 {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.imgcontent img {
+    width: 100% ;
+    height: 200px;
+}   
+
+.content1 {
+    height: 200px;
+}
+
+.content1 h1 {
+    font-size: 22px;
+    padding: 1rem 0;
+}
+
+.conbtn {
+    margin: 2rem 0;
+}
+
+.con-btn {
+    background: #333;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; 
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.con-btn:hover {
+    background: red;
+}
+
+.artnav {
+    background: #000;
+}
+
+.nav11 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav22 {
+    padding: 1rem 0;
+}
+
+.nav33 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav33 a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.article {
+    background: #333;
+}
+
+.art1 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.art3 {
+    display: grid;
+    background-color: transparent;
+    padding: 1rem 1rem 1rem 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.art-con {
+    margin: 15px;
+}
+
+.art-con a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.art-con a:hover {
+    text-decoration: underline;
+}
+
+.art-img img {
+    width: 200px;
+    height: 150px;
+}
+
+.ft1 {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.ft3 p {
+    margin: 1rem 1rem;
+    text-align: right;
+    font-size: 12px;
+}
